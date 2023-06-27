@@ -1,0 +1,18 @@
+D:\Computer Notes & Digital Books\My Lectures\NS_VB_06 with DevExpress\Neuro.Data\bin\Debug\Neuro.Data.dll
+D:\Computer Notes & Digital Books\My Lectures\NS_VB_06 with DevExpress\Neuro.Data\bin\Debug\Neuro.Data.pdb
+D:\Computer Notes & Digital Books\My Lectures\NS_VB_06 with DevExpress\Neuro.Data\bin\Debug\Neuro.Data.xml
+D:\Computer Notes & Digital Books\My Lectures\NS_VB_06 with DevExpress\Neuro.Data\obj\Debug\Neuro.Data.Resources.resources
+D:\Computer Notes & Digital Books\My Lectures\NS_VB_06 with DevExpress\Neuro.Data\obj\Debug\Neuro.Data.vbproj.GenerateResource.Cache
+D:\Computer Notes & Digital Books\My Lectures\NS_VB_06 with DevExpress\Neuro.Data\obj\Debug\Neuro.Data.dll
+D:\Computer Notes & Digital Books\My Lectures\NS_VB_06 with DevExpress\Neuro.Data\obj\Debug\Neuro.Data.xml
+D:\Computer Notes & Digital Books\My Lectures\NS_VB_06 with DevExpress\Neuro.Data\obj\Debug\Neuro.Data.pdb
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\bin\Debug\Neuro.Data.dll
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\bin\Debug\Neuro.Data.pdb
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\bin\Debug\Neuro.Data.xml
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\obj\Debug\Neuro.Data.vbproj.AssemblyReference.cache
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\obj\Debug\Neuro.Data.Resources.resources
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\obj\Debug\Neuro.Data.vbproj.GenerateResource.cache
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\obj\Debug\Neuro.Data.vbproj.CoreCompileInputs.cache
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\obj\Debug\Neuro.Data.dll
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\obj\Debug\Neuro.Data.xml
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\obj\Debug\Neuro.Data.pdb

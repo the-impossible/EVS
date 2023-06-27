@@ -1,0 +1,9 @@
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Business\bin\x86\Debug\Neuro.Business.dll
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Business\bin\x86\Debug\Neuro.Business.pdb
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Business\bin\x86\Debug\Neuro.Data.dll
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Business\bin\x86\Debug\Neuro.Data.pdb
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Business\obj\x86\Debug\Neuro.Business.vbprojResolveAssemblyReference.cache
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Business\obj\x86\Debug\Neuro.Business.Resources.resources
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Business\obj\x86\Debug\Neuro.Business.vbproj.GenerateResource.Cache
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Business\obj\x86\Debug\Neuro.Business.dll
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Business\obj\x86\Debug\Neuro.Business.pdb

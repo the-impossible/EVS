@@ -1,0 +1,6 @@
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\bin\x86\Debug\Neuro.Data.dll
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\bin\x86\Debug\Neuro.Data.pdb
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\obj\x86\Debug\Neuro.Data.Resources.resources
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\obj\x86\Debug\Neuro.Data.vbproj.GenerateResource.Cache
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\obj\x86\Debug\Neuro.Data.dll
+C:\Users\the-impossible\Documents\Django\EVS\Neuro.Data\obj\x86\Debug\Neuro.Data.pdb
