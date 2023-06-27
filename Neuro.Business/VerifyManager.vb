@@ -47,6 +47,29 @@ Public Class VerifyManager
         End Try
     End Function
 
+    Public Shared Function deleteUser(ByVal userName As String) As DataSet
+        Dim ds As New DataSet
+        Try
+            DAL.openConnection()
+            DAL.BeginTransaction()
+            DAL.ProcedureName = "mSP_DeleteUser"
+            DAL.createProcedureCommand()
+            DAL.Parameters("@UserName", userName)
+
+            Dim da As SqlClient.SqlDataAdapter = DAL.createDataAdapter
+            da.Fill(ds)
+            DAL.commitTransaction()
+            Return ds
+
+        Catch ex As Exception
+            DAL.rollbackTransaction()
+            Throw New Exception(ex.Message)
+        Finally
+            DAL.closeConnection()
+            DAL.disposeConnection()
+        End Try
+    End Function
+
     Public Shared Function getStudentInformationByID(ByVal id As Double) As DataSet
         Dim ds As New DataSet
         Try

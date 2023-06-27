@@ -17,7 +17,7 @@ Public Class frmLogin
                 Neuro.Data.DataAccessLayer.loggedInUser = ds.Tables(0).Rows(0)("UserName")
                 Neuro.Data.DataAccessLayer.loggedInUserType = ds.Tables(0).Rows(0)("UserType")
 
-                If Neuro.Data.DataAccessLayer.loggedInUserType = "Admin" Then
+                If Neuro.Data.DataAccessLayer.loggedInUserType.Trim = "Admin" Then
                     frmMain.Show()
                     frmMain.Activate()
                     Me.Close()

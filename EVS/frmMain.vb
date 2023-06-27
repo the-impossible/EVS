@@ -28,4 +28,18 @@
         Me.Close()
 
     End Sub
+
+    Private Sub PictureBox6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
+    Private Sub Label6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
+    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
+        frmRegisterUsers.Show()
+        frmRegisterUsers.Activate()
+        Me.Close()
+    End Sub
 End Class

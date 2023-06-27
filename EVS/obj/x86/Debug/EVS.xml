@@ -6,7 +6,72 @@ EVS
 </name>
 </assembly>
 <members>
-<member name="T:EVS.EVSDataSet.StudentsDataTable">
+<member name="M:EVS.EVSEntities.#ctor">
+	<summary>
+ Initializes a new EVSEntities object using the connection string found in the 'EVSEntities' section of the application configuration file.
+ </summary>
+</member><member name="M:EVS.EVSEntities.#ctor(System.String)">
+	<summary>
+ Initialize a new EVSEntities object.
+ </summary>
+</member><member name="M:EVS.EVSEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialize a new EVSEntities object.
+ </summary>
+</member><member name="P:EVS.EVSEntities.Users">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:EVS.EVSEntities.AddToUsers(EVS.User)">
+	<summary>
+ Deprecated Method for adding a new object to the Users EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="T:EVS.EVSEntities">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:EVS.User.CreateUser(System.Int64,System.String,System.String,System.String)">
+	<summary>
+ Create a new User object.
+ </summary>
+	<param name="id">Initial value of the ID property.</param>
+	<param name="userName">Initial value of the UserName property.</param>
+	<param name="password">Initial value of the Password property.</param>
+	<param name="userType">Initial value of the UserType property.</param>
+</member><member name="P:EVS.User.ID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:EVS.User.UserName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:EVS.User.Password">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:EVS.User.UserType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:EVS.User">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:EVS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:EVS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:EVS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:EVS.EVSDataSet.StudentsDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -73,19 +138,6 @@ Used to sort self-referenced table's rows
 </member><member name="T:EVS.EVSDataSetTableAdapters.TableAdapterManager">
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="P:EVS.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:EVS.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:EVS.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 </members>

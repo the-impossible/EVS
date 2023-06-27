@@ -25,4 +25,26 @@ Public Class StudentManager
         End Try
         Return InsertStudent
     End Function
+
+    Public Shared Function InsertUsers(ByVal username As String, ByVal password As String, ByVal type As String) As Double
+        Try
+            DAL.openConnection()
+            DAL.BeginTransaction()
+            DAL.ProcedureName = "msp_Insert_Users"
+            DAL.createProcedureCommand()
+            DAL.Parameters("@Username", username)
+            DAL.Parameters("@Password", password)
+            DAL.Parameters("@UserType", type)
+            InsertUsers = DAL.ExecuteNonQuery()
+            DAL.commitTransaction()
+
+        Catch ex As Exception
+            DAL.rollbackTransaction()
+            Throw New Exception(ex.Message)
+        Finally
+            DAL.closeConnection()
+            DAL.disposeConnection()
+        End Try
+        Return InsertUsers
+    End Function
 End Class

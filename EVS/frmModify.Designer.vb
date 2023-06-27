@@ -28,17 +28,14 @@ Partial Class frmModify
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btnClose = New System.Windows.Forms.Button()
+        Me.StudentsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.EVSDataSet = New EVS.EVSDataSet()
+        Me.StudentsTableAdapter = New EVS.EVSDataSetTableAdapters.StudentsTableAdapter()
         Me.IDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.RegNoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.NameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.PhoneDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.LevelDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FingerPrint1DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FingerPrint2DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.StudentImageDataGridViewImageColumn = New System.Windows.Forms.DataGridViewImageColumn()
-        Me.StudentsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.EVSDataSet = New EVS.EVSDataSet()
-        Me.StudentsTableAdapter = New EVS.EVSDataSetTableAdapters.StudentsTableAdapter()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.StudentsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EVSDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -48,7 +45,7 @@ Partial Class frmModify
         '
         Me.DataGridView1.AutoGenerateColumns = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IDDataGridViewTextBoxColumn, Me.RegNoDataGridViewTextBoxColumn, Me.NameDataGridViewTextBoxColumn, Me.PhoneDataGridViewTextBoxColumn, Me.LevelDataGridViewTextBoxColumn, Me.FingerPrint1DataGridViewTextBoxColumn, Me.FingerPrint2DataGridViewTextBoxColumn, Me.StudentImageDataGridViewImageColumn})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IDDataGridViewTextBoxColumn, Me.RegNoDataGridViewTextBoxColumn, Me.NameDataGridViewTextBoxColumn, Me.PhoneDataGridViewTextBoxColumn, Me.LevelDataGridViewTextBoxColumn})
         Me.DataGridView1.DataSource = Me.StudentsBindingSource
         Me.DataGridView1.Location = New System.Drawing.Point(12, 63)
         Me.DataGridView1.Name = "DataGridView1"
@@ -95,6 +92,20 @@ Partial Class frmModify
         Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = True
         '
+        'StudentsBindingSource
+        '
+        Me.StudentsBindingSource.DataMember = "Students"
+        Me.StudentsBindingSource.DataSource = Me.EVSDataSet
+        '
+        'EVSDataSet
+        '
+        Me.EVSDataSet.DataSetName = "EVSDataSet"
+        Me.EVSDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'StudentsTableAdapter
+        '
+        Me.StudentsTableAdapter.ClearBeforeFill = True
+        '
         'IDDataGridViewTextBoxColumn
         '
         Me.IDDataGridViewTextBoxColumn.DataPropertyName = "ID"
@@ -125,38 +136,6 @@ Partial Class frmModify
         Me.LevelDataGridViewTextBoxColumn.HeaderText = "Level"
         Me.LevelDataGridViewTextBoxColumn.Name = "LevelDataGridViewTextBoxColumn"
         '
-        'FingerPrint1DataGridViewTextBoxColumn
-        '
-        Me.FingerPrint1DataGridViewTextBoxColumn.DataPropertyName = "FingerPrint1"
-        Me.FingerPrint1DataGridViewTextBoxColumn.HeaderText = "FingerPrint1"
-        Me.FingerPrint1DataGridViewTextBoxColumn.Name = "FingerPrint1DataGridViewTextBoxColumn"
-        '
-        'FingerPrint2DataGridViewTextBoxColumn
-        '
-        Me.FingerPrint2DataGridViewTextBoxColumn.DataPropertyName = "FingerPrint2"
-        Me.FingerPrint2DataGridViewTextBoxColumn.HeaderText = "FingerPrint2"
-        Me.FingerPrint2DataGridViewTextBoxColumn.Name = "FingerPrint2DataGridViewTextBoxColumn"
-        '
-        'StudentImageDataGridViewImageColumn
-        '
-        Me.StudentImageDataGridViewImageColumn.DataPropertyName = "StudentImage"
-        Me.StudentImageDataGridViewImageColumn.HeaderText = "StudentImage"
-        Me.StudentImageDataGridViewImageColumn.Name = "StudentImageDataGridViewImageColumn"
-        '
-        'StudentsBindingSource
-        '
-        Me.StudentsBindingSource.DataMember = "Students"
-        Me.StudentsBindingSource.DataSource = Me.EVSDataSet
-        '
-        'EVSDataSet
-        '
-        Me.EVSDataSet.DataSetName = "EVSDataSet"
-        Me.EVSDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'StudentsTableAdapter
-        '
-        Me.StudentsTableAdapter.ClearBeforeFill = True
-        '
         'frmModify
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -181,15 +160,12 @@ Partial Class frmModify
     Friend WithEvents EVSDataSet As EVS.EVSDataSet
     Friend WithEvents StudentsBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents StudentsTableAdapter As EVS.EVSDataSetTableAdapters.StudentsTableAdapter
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents btnClose As System.Windows.Forms.Button
     Friend WithEvents IDDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents RegNoDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents NameDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents PhoneDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents LevelDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents FingerPrint1DataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents FingerPrint2DataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents StudentImageDataGridViewImageColumn As System.Windows.Forms.DataGridViewImageColumn
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents btnClose As System.Windows.Forms.Button
 End Class

@@ -20,3 +20,5 @@ C:\Users\the-impossible\Documents\Django\EVS\EVS\obj\x86\Debug\EVS.frmModify.res
 C:\Users\the-impossible\Documents\Django\EVS\EVS\obj\x86\Debug\EVS.frmSplash.resources
 C:\Users\the-impossible\Documents\Django\EVS\EVS\obj\x86\Debug\EVS.frmMain.resources
 C:\Users\the-impossible\Documents\Django\EVS\EVS\obj\x86\Debug\EVS.frmMainInvigilator.resources
+C:\Users\the-impossible\Documents\Django\EVS\EVS\obj\x86\Debug\EVS.frmRegisterUsers.resources
+C:\Users\the-impossible\Documents\Django\EVS\EVS\obj\x86\Debug\EVS.frmAllUsers.resources

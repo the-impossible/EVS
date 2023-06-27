@@ -27,7 +27,7 @@ Public Class frmModify
                 Dim rowIndex As Integer = DataGridView1.CurrentCell.RowIndex
                 Dim columnIndex As Integer = DataGridView1.CurrentCell.ColumnIndex
                 VerifyManager.deleteStudent(DataGridView1.Rows([rowIndex]).Cells([columnIndex]).Value.ToString())
-                MsgBox("Student Deleted", MsgBoxStyle.Exclamation, "Info")
+                MsgBox("Student Information Deleted", MsgBoxStyle.Information, "Info")
                 DataGridView1.Rows.RemoveAt(i)
             End If
         End If

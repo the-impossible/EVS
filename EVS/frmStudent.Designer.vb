@@ -62,7 +62,7 @@ Partial Class frmStudent
         Me.Label1.Location = New System.Drawing.Point(12, 26)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(55, 21)
-        Me.Label1.TabIndex = 1
+        Me.Label1.TabIndex = 15
         Me.Label1.Text = "RegNo: "
         '
         'Label2
@@ -71,7 +71,7 @@ Partial Class frmStudent
         Me.Label2.Location = New System.Drawing.Point(12, 64)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(55, 21)
-        Me.Label2.TabIndex = 1
+        Me.Label2.TabIndex = 16
         Me.Label2.Text = "Name:"
         '
         'Label3
@@ -80,7 +80,7 @@ Partial Class frmStudent
         Me.Label3.Location = New System.Drawing.Point(12, 102)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(55, 21)
-        Me.Label3.TabIndex = 1
+        Me.Label3.TabIndex = 17
         Me.Label3.Text = "Level: "
         '
         'Label4
@@ -89,7 +89,7 @@ Partial Class frmStudent
         Me.Label4.Location = New System.Drawing.Point(12, 143)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(55, 21)
-        Me.Label4.TabIndex = 1
+        Me.Label4.TabIndex = 18
         Me.Label4.Text = "Phone: "
         '
         'lbl1
@@ -99,7 +99,7 @@ Partial Class frmStudent
         Me.lbl1.Location = New System.Drawing.Point(60, 216)
         Me.lbl1.Name = "lbl1"
         Me.lbl1.Size = New System.Drawing.Size(70, 56)
-        Me.lbl1.TabIndex = 1
+        Me.lbl1.TabIndex = 11
         Me.lbl1.Text = "1"
         Me.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -110,7 +110,7 @@ Partial Class frmStudent
         Me.lbl2.Location = New System.Drawing.Point(136, 216)
         Me.lbl2.Name = "lbl2"
         Me.lbl2.Size = New System.Drawing.Size(70, 56)
-        Me.lbl2.TabIndex = 1
+        Me.lbl2.TabIndex = 12
         Me.lbl2.Text = "2"
         Me.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -121,7 +121,7 @@ Partial Class frmStudent
         Me.lbl3.Location = New System.Drawing.Point(212, 216)
         Me.lbl3.Name = "lbl3"
         Me.lbl3.Size = New System.Drawing.Size(70, 56)
-        Me.lbl3.TabIndex = 1
+        Me.lbl3.TabIndex = 13
         Me.lbl3.Text = "3"
         Me.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -132,7 +132,7 @@ Partial Class frmStudent
         Me.lbl4.Location = New System.Drawing.Point(288, 216)
         Me.lbl4.Name = "lbl4"
         Me.lbl4.Size = New System.Drawing.Size(70, 56)
-        Me.lbl4.TabIndex = 1
+        Me.lbl4.TabIndex = 14
         Me.lbl4.Text = "4"
         Me.lbl4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -143,7 +143,7 @@ Partial Class frmStudent
         Me.txtReg.Multiline = True
         Me.txtReg.Name = "txtReg"
         Me.txtReg.Size = New System.Drawing.Size(188, 30)
-        Me.txtReg.TabIndex = 1
+        Me.txtReg.TabIndex = 0
         '
         'txtName
         '
@@ -152,7 +152,7 @@ Partial Class frmStudent
         Me.txtName.Multiline = True
         Me.txtName.Name = "txtName"
         Me.txtName.Size = New System.Drawing.Size(188, 30)
-        Me.txtName.TabIndex = 2
+        Me.txtName.TabIndex = 1
         '
         'txtPhone
         '
@@ -161,7 +161,7 @@ Partial Class frmStudent
         Me.txtPhone.Multiline = True
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(188, 30)
-        Me.txtPhone.TabIndex = 4
+        Me.txtPhone.TabIndex = 3
         '
         'btnLoadImg
         '
@@ -169,7 +169,7 @@ Partial Class frmStudent
         Me.btnLoadImg.Location = New System.Drawing.Point(267, 170)
         Me.btnLoadImg.Name = "btnLoadImg"
         Me.btnLoadImg.Size = New System.Drawing.Size(137, 34)
-        Me.btnLoadImg.TabIndex = 7
+        Me.btnLoadImg.TabIndex = 6
         Me.btnLoadImg.Text = "Load Image"
         Me.btnLoadImg.UseVisualStyleBackColor = True
         '
@@ -180,7 +180,7 @@ Partial Class frmStudent
         Me.lblInfo.Location = New System.Drawing.Point(15, 290)
         Me.lblInfo.Name = "lblInfo"
         Me.lblInfo.Size = New System.Drawing.Size(401, 82)
-        Me.lblInfo.TabIndex = 1
+        Me.lblInfo.TabIndex = 10
         Me.lblInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnNew
@@ -189,7 +189,7 @@ Partial Class frmStudent
         Me.btnNew.Location = New System.Drawing.Point(22, 391)
         Me.btnNew.Name = "btnNew"
         Me.btnNew.Size = New System.Drawing.Size(124, 34)
-        Me.btnNew.TabIndex = 8
+        Me.btnNew.TabIndex = 7
         Me.btnNew.Text = "&New"
         Me.btnNew.UseVisualStyleBackColor = True
         '
@@ -199,7 +199,7 @@ Partial Class frmStudent
         Me.btnSave.Location = New System.Drawing.Point(152, 391)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(117, 34)
-        Me.btnSave.TabIndex = 9
+        Me.btnSave.TabIndex = 8
         Me.btnSave.Text = "&Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
@@ -209,7 +209,7 @@ Partial Class frmStudent
         Me.btnClose.Location = New System.Drawing.Point(278, 391)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(128, 34)
-        Me.btnClose.TabIndex = 10
+        Me.btnClose.TabIndex = 9
         Me.btnClose.Text = "&Close"
         Me.btnClose.UseVisualStyleBackColor = True
         '
@@ -221,7 +221,7 @@ Partial Class frmStudent
         Me.cmbLevel.Location = New System.Drawing.Point(73, 101)
         Me.cmbLevel.Name = "cmbLevel"
         Me.cmbLevel.Size = New System.Drawing.Size(188, 23)
-        Me.cmbLevel.TabIndex = 3
+        Me.cmbLevel.TabIndex = 2
         '
         'chkPrimary
         '
@@ -229,7 +229,7 @@ Partial Class frmStudent
         Me.chkPrimary.Location = New System.Drawing.Point(12, 181)
         Me.chkPrimary.Name = "chkPrimary"
         Me.chkPrimary.Size = New System.Drawing.Size(120, 17)
-        Me.chkPrimary.TabIndex = 5
+        Me.chkPrimary.TabIndex = 4
         Me.chkPrimary.Text = "Primary Finger Scan"
         Me.chkPrimary.UseVisualStyleBackColor = True
         '
@@ -239,7 +239,7 @@ Partial Class frmStudent
         Me.chkSecondary.Location = New System.Drawing.Point(132, 181)
         Me.chkSecondary.Name = "chkSecondary"
         Me.chkSecondary.Size = New System.Drawing.Size(137, 17)
-        Me.chkSecondary.TabIndex = 6
+        Me.chkSecondary.TabIndex = 5
         Me.chkSecondary.Text = "Secondary Finger Scan"
         Me.chkSecondary.UseVisualStyleBackColor = True
         '

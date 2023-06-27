@@ -369,6 +369,12 @@ Public Class frmStudent
         Dim level As String = Me.cmbLevel.Text
         If level Is Nothing Then Me.cmbLevel.Focus() : Return
 
+
+
+        If level <> "100 Level" AndAlso level <> "200 Level" AndAlso level <> "300 Level" AndAlso level <> "400 Level" Then
+            Me.cmbLevel.Focus() : Return
+        End If
+
         If fmdLeftIndex Is Nothing Or fmdRightIndex Is Nothing Then
             MsgBox("Could not saved. Please provide finger information.", MsgBoxStyle.Exclamation, "No finger data captured")
             Return
